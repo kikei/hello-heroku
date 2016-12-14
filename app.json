@@ -1,16 +1,11 @@
 {
   "name": "hello-heroku",
+  "description": "hello world app",
+  "version": "0.1.0",
+  "engines": {
+    "node": "4.6.1"
+  }
   "scripts": {
-    "start": "node app.js"
-  },
-  "env": {
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-
-  ]
+    "start": "node src/server.js"
+  }
 }
