@@ -1,6 +1,7 @@
 {
   "name": "hello-heroku",
   "scripts": {
+    "start": "node app.js"
   },
   "env": {
   },
